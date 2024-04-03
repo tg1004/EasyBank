@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: grey;
+    padding: 20px;
+    text-align: right;
+}
+
+#element0{
+    display: flex;
+    align-items: center; /* Align items vertically */
+    background-color: white;
+    margin-top: 0px;
+    height: 80px;
+    width:1550px;
+    position: absolute;
+
+} 
+#element0 img{
+    width: 200px; /* Adjust the width as needed */
+    height: 30px; /* Maintain aspect ratio */
+    margin-right: 300px; /* Optional: Add spacing between logo and links */
+    margin-left: 200px;
+
+}
+#element0 a{
+    color: gray;
+    text-decoration: none;
+    margin-right: 30px; /* Optional: Add spacing between links */
+}
+#element0 a :last-child{
+    margin-left: auto;
+}
+#element0 a:hover{
+    color: green;
+    text-decoration: underline;
+}
+.request-invite-btn{
+    background-color:#00ff88;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-right: 200px; /* Adjust the distance between the button and other links */
+
+}
+
+.request-invite-btn:hover {
+    background-color: #00e67b;
+}
+
+#phone{
+    max-width: 600px; /* Adjust the maximum width of the image */
+    margin-left: 1020px; /* Optional: Add spacing between image and description */
+    align-self: flex-start; 
+    margin-top: -650px;
+    /* margin-left: 900px; */
+}
+.element1 img{
+    max-width: 900px; /* Adjust the maximum width of the image */
+    margin-left: 800px; /* Optional: Add spacing between image and description */
+    align-self: flex-start; 
+    margin-top: -100px;
+
+}
+.element1{
+    background-color:hsl(0, 0%, 98%);
+    height: 600px;
+}
+
+
+h1{
+    font-size: 50px;
+    margin-top: -550px;
+    margin-left: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.element1 h5{
+    margin-left: 150px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: hsl(233, 8%, 62%);     
+}
+.element1 a{
+    margin-left: 150px;
+}
+/* .element2{
+    background-color:hsl(220, 16%, 96%);
+    
+} */
+.element2 #box1{
+    font-size:35px ;
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.element2 #box2{
+    margin-left: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(233, 8%, 62%);
+}
+.element2 h2{
+    font-size:35px ;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.element2 h5{
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: hsl(233, 8%, 62%);
+}
+.element2 span{
+    display: flex;
+    margin-left: 150px;
+    justify-content: space-between;
+} 
+#element3 span{
+    background-color:hsl(0, 0%, 98%);
+    display: flex;
+    height: 500px;
+}
+#element3 img{
+    height: 200px;
+    width: 300px;
+    /* margin-right: -200px; */
+    margin-left: 50px;
+
+}
+#element3 h2{
+    margin-left:50px ;
+
+}
+#element3 p{
+    margin-left:50px ;
+    font-size: 15px;
+    color: hsl(233, 8%, 62%);
+
+}
+#element3 h4{
+    margin-left:50px ;
+}
+#element3 h5{
+    margin-left:50px ;
+    color: hsl(233, 8%, 62%);
+}
+#element3 div{
+    background-color: white;
+    justify-content: space-between;
+}
+footer{
+    background-color:  hsl(233, 26%, 24%);
+    height: 200px;
+}
+footer img{
+    height: 30px;
+    width: 30px;
+}
+footer a{
+    color: white;
+    margin-left: 300px;
+}
+footer #icons{
+    margin-left: 0px;
+}
+
+footer #request{
+    background-color: #00ff88;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: 1100px;
+    margin-top: -80px;
+    position: absolute;
+}
+footer #request:hover {
+    background-color: #00e67b;
+}
+footer p{
+    margin-left: 1200px;
+    margin-top: -60px;
+    color: hsl(233, 8%, 62%);
+}
